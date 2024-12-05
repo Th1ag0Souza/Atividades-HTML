@@ -1,0 +1,70 @@
+/* style.css */
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-image: linear-gradient(to right, #954fb3, #4481EB);
+}
+
+img {
+    max-width: 350px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.product-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product-info {
+    background-color: #9ce2ee;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product-info:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.product-name,
+.product-price {
+    margin: 0;
+}
+.container {
+    background-color: rgb(171, 148, 202);
+}
